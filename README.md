@@ -1,1 +1,49 @@
-# mendez-gomez
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IES Web</title>
+    <style>
+        body {
+            background-color: #00aae4; /* Spanish Sky Blue */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+            margin: 30px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Soy de IES</h1>
+    <img src="https://ies21.edu.ar/gremio/branding/logos_nuevos/LOGO_IES_PLANO.png" alt="Logo del Instituto de Estudios Superiores IES 21">
+    <p>
+        Visita nuestra página oficial haciendo clic <a href="https://www.ies21.edu.ar/" target="_blank">aquí</a>.
+    </p>
+
+    <!-- Video 1 -->
+    <iframe src="https://www.youtube.com/embed/MQYKEd1JahY" allowfullscreen></iframe>
+
+    <!-- Video 2 -->
+    <iframe src="https://www.youtube.com/embed/umeHJ5kSgQk" allowfullscreen></iframe>
+</body>
+</html>
